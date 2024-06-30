@@ -1,0 +1,208 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}  
+header{
+    background-color: #737373;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.name{
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.titles{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    padding-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titles:hover{
+    color: white;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/cover.jpeg) no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+
+.main h3{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin: 10PX 10PX;
+
+}
+.main p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin: 10px 10px;
+    letter-spacing: 0.1px;
+}
+.parent {
+    display: flex;
+    justify-content: center; 
+    align-items: center;            
+  }
+.title{
+  color: black;
+  background-color: #D9D9D9;
+  border-radius: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  padding: 20px; 
+}
+.me {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.messages{
+  color: black;
+  background-color: #D9D9D9;
+  border-radius: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    padding: 20px;
+    background-color: #fffefe; 
+  }
+  
+  .footer i {
+    margin: 0 10px;         
+    font-size: 24px;         
+  }
